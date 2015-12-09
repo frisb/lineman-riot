@@ -1,0 +1,43 @@
+{
+  "name": "lineman-riot",
+  "description": "A Riot server-side compilation plugin for Lineman",
+  "version": "0.0.1",
+  "homepage": "https://github.com/frisB/lineman-riot",
+  "author": {
+    "name": "ashley brener",
+    "email": "ashley@frisb.com",
+    "url": "www.frisb.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frisB/lineman-riot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/frisB/lineman-riot/issues"
+  },
+  "main": "index.js",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://frisb.mit-license.org"
+    }
+  ],
+  "dependencies": {
+    "babel": "^5.1.11",
+    "grunt-riot": "0.0.13"
+  },
+  "peerDependencies": {
+    "lineman": ">= 0.27.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  },
+  "keywords": [
+    "lineman",
+    "linemanplugin",
+    "riot",
+    "riotjs",
+    "grunt",
+    "grunt-riot"
+  ]
+}
